@@ -5,8 +5,8 @@ import Logo from "../components/Logo";
 function PageNav() {
   return (
     <nav className={styles.nav}>
+        <Logo/>
         <ul>
-            <Logo/>
             <li>
                 <NavLink to="/product">Product</NavLink>
             </li>
